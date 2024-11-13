@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #633c12, #d3c5b0, #e8dbc2, #c9b79d); /* Gradiente com tons de bege */
+    display: flex;
+}
+
+
+.left, .right {
+    width: 50%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.left {
+    background-image: url("imagens/abjurer.png");
+    background-size: 40%; /* Ajuste para a imagem da esquerda */
+}
+
+.right {
+    background-image: url("imagens/abjurer.jpg");
+    background-size: 65%; /* Ajuste para a imagem da direita */
+}
+
+
+
+.left {
+    background-image: url("imagens/abjurer.png"); /* Imagem da esquerda */
+}
+
+.right {
+    background-image: url("imagens/abjurer.jpg"); /* Imagem da direita */
+}
